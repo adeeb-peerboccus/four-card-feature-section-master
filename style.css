@@ -10,7 +10,8 @@ body {
   justify-content: center;   /* vertically center */
   align-items: center;       /* horizontally center */
   font-family: poppins, sans-serif;
-  background-color: hsl(212, 6%, 44%);
+  font-size: 15px;
+  background-color: hsl(0, 0%, 100%)
   color: hsl(234, 12%, 34%);
 }
 
@@ -70,7 +71,7 @@ body {
   
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .cards-section {
     display: flex;
     flex-direction: column;
